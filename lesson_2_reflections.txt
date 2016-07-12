@@ -5,3 +5,23 @@ It creates a new git repository with all the related files from that folder/dire
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area just holds one, some or all the files temporarily unlike the working directory/repository which contains all of the files. The staging area allows the user to arrange, organize and/or revise files before committing. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+You can use different commands to see how the staging area is different (what changes were made) from the most current commit and also how it is different from what you have in the working directory. You can customize the contents of the staging area to get it exactly how you want it before making it a commit.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+When you want to try something experimental or when you want to create different versions of the file. By creating branches you can work on the file without modifying the original master.
+
+How do the diagrams help you visualize the branch structure?
+
+By drawing a diagram you can see exactly how multiple branches relate to each other. Which commit came first, where the parent commits are and which branches are unreachable. It helps keep you organized.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+When you merge two branches together it combines both files, changes and commits together into one file according to time stamp of when changes were made. So you can clearly see what is happening in both branches before and after they merge.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Most of the time Git will be able to merge files/branches/commits quickly and efficiently unless there is a conflict. In that case it is best that Git not guess which version you want but instead prompts you to resolve the conflict before continuing to merge.
